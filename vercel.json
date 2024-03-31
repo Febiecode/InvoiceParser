@@ -5,15 +5,5 @@
             "src": "./app.py",
             "use": "@vercel/python"
         }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "app.py",
-            "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-            "headers": {
-                "Access-Control-Allow-Origin": "*"
-            }
-        }
     ]
 }
