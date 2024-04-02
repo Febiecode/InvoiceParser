@@ -1,5 +1,4 @@
 /pyvenv
 .vercel
 /python310
-/Dockerfile
 /vercel.json
