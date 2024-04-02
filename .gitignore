@@ -1,2 +1,4 @@
 /pyvenv
 .vercel
+/python310
+/Dockerfile
